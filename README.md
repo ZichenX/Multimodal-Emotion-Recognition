@@ -1,7 +1,7 @@
-In this work, we leverage on text + audio + movement capture data to recognize the emotion of speakers. 
+In this work, we leverage text, audio, and motion capture data to recognize the emotions of speakers.
 
-We present 9 kinds of models and some of them get closer or even surpass the SOTA(SDT: Weighted F1: 74.080% and unweighted accuracy: 73.95%) For example, model-8 get 70.49% on weighted F1 and 70.98% on unweighted accuracy. Model-3 get 76.38% on weighted F1 and 76.44% on unweighted accuracy.
+We present 9 types of models, some of which approach or even surpass the SOTA (SDT: Weighted F1: 74.080% and Unweighted Accuracy: 73.95%). For example, Model-8 achieves 70.49% on Weighted F1 and 70.98% on Unweighted Accuracy, while Model-3 achieves 76.38% on Weighted F1 and 76.44% on Unweighted Accuracy.
 
-The feature abstraction is mainly based on this work: https://arxiv.org/abs/1804.05788. And we made a lots of improvements by trying to use depthwise separable convolution, self&cross attention mechanisms and dynamic info borrowing structures.
+The feature abstraction is primarily based on the work presented in https://arxiv.org/abs/1804.05788. We made several improvements by incorporating depthwise separable convolution, self & cross attention mechanisms, and dynamic information borrowing structures.
 
 If you find it helpful and interesting, please feel free to give it a star. Any comments are also welcome at zichenxu[at]gmail[dot]com. Thanks!
